@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #4b4b4b;
 }
 
 a {
@@ -58,10 +59,31 @@ a:hover {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 150px;
+  padding-left: 150px;
   margin-right: auto;
   margin-left: auto;
+}
+
+section {
+  margin: 6rem 0;
+}
+
+section.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.header .header-image {
+  width: 100%;
+  max-width: 598px;
+  height: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
