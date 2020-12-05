@@ -69,6 +69,10 @@ section {
   margin: 6rem 0;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 section.header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,9 +84,23 @@ section.header {
       -ms-flex-align: center;
           align-items: center;
 }
+section.header a {
+  color: #736CE9;
+}
+section.header .header-text {
+  max-width: 50%;
+}
+section.header .header-text h1 {
+  margin-bottom: 1rem;
+}
+section.header .header-text p {
+  margin-top: 1rem;
+  color: #afafaf;
+  letter-spacing: .4px;
+}
 section.header .header-image {
   width: 100%;
-  max-width: 598px;
+  max-width: 376px;
   height: auto;
 }
 
