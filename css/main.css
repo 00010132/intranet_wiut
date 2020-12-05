@@ -1,5 +1,64 @@
+/** Colors */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
-  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #4b4b4b;
+  font-weight: 500;
+}
+a:hover {
+  font-weight: 600;
+  color: #736CE9;
+}
+
+.navbar {
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 3px 0 9px 0 #eaeaea, 0 0 20px 0 #eaeaea;
+          box-shadow: 3px 0 9px 0 #eaeaea, 0 0 20px 0 #eaeaea;
+}
+.navbar ul.nav {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar ul.nav li {
+  display: inline;
+}
+.navbar ul.nav li a {
+  display: block;
+  padding: .5rem;
+  font-size: 0.9rem;
+}
+
+.container {
+  padding: 0 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
