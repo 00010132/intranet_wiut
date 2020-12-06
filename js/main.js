@@ -1,3 +1,4 @@
+/* Navigation menu button toggler */
 function navResponsify() {
     var x = document.getElementById("navBar");
     if (x.className === "navbar") {
