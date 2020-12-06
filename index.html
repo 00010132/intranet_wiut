@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!--Stylesheets-->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-<nav class="navbar">
+<nav class="navbar" id="navBar">
     <a href="/" class="brand-logo">
         <img src="images/logo.png" alt="logo">
     </a>
     <ul class="nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+        </li>
         <li class="nav-item">
             <a href="#" class="nav-link">News</a>
         </li>
@@ -37,6 +43,9 @@
     <a href="#" class="user">
         00011763
     </a>
+    <a href="javascript:void(0);" onclick="navResponsify()" class="nav-button">
+        <i class="fas fa-bars"></i>
+    </a>
 </nav>
 
 <div class="container">
@@ -53,7 +62,6 @@
 </div>
 
 
-
-
+<script src="js/main.js"></script>
 </body>
 </html>

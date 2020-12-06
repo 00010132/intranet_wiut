@@ -2,6 +2,8 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -18,7 +20,7 @@ a {
   color: #4b4b4b;
   font-weight: 500;
 }
-a:hover {
+a:hover, a.active {
   font-weight: 600;
   color: #736CE9;
 }
@@ -56,6 +58,9 @@ a:hover {
   display: block;
   padding: .5rem;
   font-size: 0.9rem;
+}
+.navbar .nav-button {
+  display: none;
 }
 
 .container {

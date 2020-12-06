@@ -1,6 +1,7 @@
 @media (min-width: 768px) {
     .container {
         width: 750px;
+        padding: 0 15px;
     }
 }
 @media (min-width: 992px) {
@@ -8,8 +9,48 @@
         width: 970px;
     }
 }
+
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
 }
+
+
+@media screen and (max-width: 874px) {
+    .navbar :not(:first-child) {
+        display: none;
+    }
+    .navbar ul.nav {display: none;}
+    .navbar a.nav-button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 874px) {
+    .navbar.responsive {
+        display: block;
+    }
+    .navbar.responsive .nav-button {
+         display: block;
+         float: right;
+     }
+    .navbar.responsive .brand-logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    .navbar.responsive ul.nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar.responsive ul.nav li {
+        display: block;
+        width: 100%;
+    }
+
+}
+
+
