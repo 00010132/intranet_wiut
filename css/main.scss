@@ -258,3 +258,23 @@ select {
 input[type=text]:focus, textarea:focus, select:focus {
   border: 2px solid $primary-color2;
 }
+
+section.modules {
+
+  .block {
+    background-color: $primary-color2;
+    h3.title {
+      text-transform: uppercase;
+    }
+    h3.code {
+      color: $secondary-color3;
+    }
+    h3 {
+      margin-bottom: 1rem;
+      color: white;
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+}
