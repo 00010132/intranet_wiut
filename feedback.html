@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome Page</title>
+    <title>Feedback</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,7 +19,7 @@
     </a>
     <ul class="nav">
         <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
             <a href="#" class="nav-link">Modules</a>
@@ -46,7 +46,46 @@
 </nav>
 
 <div class="container">
-    <h1>Leave a feedback</h1>
+    <section class="feedback">
+        <h2>Leave a feedback</h2>
+
+        <form id="#feedbackForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="e.g. John">
+                <p class="message" data-for="name">Something</p>
+            </div>
+
+            <div class="form-group">
+                <label for="surname">Last name</label>
+                <input type="text" name="surname" id="surname" placeholder="e.g. Doe">
+                <p class="message" data-for="surname">Something</p>
+            </div>
+            <div class="form-group">
+                <label for="level">Level</label>
+                <select name="level" id="level">
+                    <option value="level-1">Level 1</option>
+                    <option value="level-2">Level 2</option>
+                    <option value="level-3">Level 3</option>
+                    <option value="level-4">Level 4</option>
+                    <option value="level-5">Level 5</option>
+                    <option value="level-6">Level 6</option>
+                    <option value="level-7">Level 7</option>
+                </select>
+                <p class="message" data-for="level">Something</p>
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment..."></textarea>
+                <p class="message" data-for="level">Something</p>
+            </div>
+        </form>
+
+    </section>
 </div>
+
+
+<script src="js/main.js"></script>
 </body>
 </html>

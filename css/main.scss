@@ -12,6 +12,9 @@ $secondary-color2: #4b4b4b;
 $secondary-color3: #afafaf;
 $secondary-color5: #eaeaea;
 
+$success: #5cb85c;
+$danger: #d9534f;
+
 * {
   margin: 0;
   padding: 0;
@@ -74,11 +77,14 @@ a {
   margin-left: auto;
 }
 section {
-  margin: 6rem 0;
+  margin: 5rem 0;
 }
 
 h1 {
   font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
 }
 
 section.header {
@@ -144,4 +150,71 @@ section.blocks {
       }
     }
   }
+}
+
+section.feedback {
+  margin-top: 2rem;
+  form {
+    margin-top: 2rem;
+  }
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+p.message {
+  font-size: .8rem;
+  margin-left: .5rem;
+  color: $danger;
+  display: none;
+}
+
+input[type=text], input[type=text]:visited {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: $secondary-color1;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  color: $secondary-color1;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  color: $secondary-color1;
+}
+
+input[type=text]:focus, textarea:focus, select:focus {
+  border: 2px solid $primary-color2;
 }
