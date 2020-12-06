@@ -66,8 +66,8 @@ a:hover, a.active {
 }
 
 .container {
-  padding-right: 150px;
-  padding-left: 150px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }

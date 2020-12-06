@@ -1,3 +1,4 @@
+/* Adjusting container for different screen sizes */
 @media (min-width: 768px) {
     .container {
         width: 750px;
@@ -16,8 +17,8 @@
     }
 }
 
-
-@media screen and (max-width: 874px) {
+/* Making navigation bar responsive */
+@media screen and (max-width: 992px) {
     .navbar :not(:first-child) {
         display: none;
     }
@@ -27,7 +28,7 @@
     }
 }
 
-@media screen and (max-width: 874px) {
+@media screen and (max-width: 992px) {
     .navbar.responsive {
         position: relative;
         flex-direction: column;
@@ -56,6 +57,23 @@
         margin-top: 2rem;
     }
 
+}
+
+/* Making the first section Responsive */
+@media screen and (max-width: 992px) {
+    section.header {
+        flex-direction: column-reverse;
+    }
+
+    section.header .header-text, .header-image {
+        max-width: 80%;
+        width: 100%;
+        text-align: center;
+    }
+
+    section.header .header-text {
+        margin-top: 2rem;
+    }
 }
 
 
