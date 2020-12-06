@@ -122,6 +122,25 @@ section.header {
   margin: 1rem;
 }
 
+.feedback .block {
+  display: none;
+}
+
+.block.success {
+  background-color: $success;
+  border-color: green;
+  color: white;
+  margin: 1rem 0;
+  display: block;
+}
+.block.danger {
+  background-color: $danger;
+  border-color: darkred;
+  color: white;
+  margin: 1rem 0;
+  display: block;
+}
+
 section.blocks {
   display: flex;
   flex-wrap: wrap;
