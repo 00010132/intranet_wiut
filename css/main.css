@@ -36,6 +36,7 @@ a:hover, a.active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
   -webkit-box-shadow: 3px 0 9px 0 #eaeaea, 0 0 20px 0 #eaeaea;
           box-shadow: 3px 0 9px 0 #eaeaea, 0 0 20px 0 #eaeaea;
 }
@@ -61,6 +62,7 @@ a:hover, a.active {
 }
 .navbar .nav-button {
   display: none;
+  padding: .5rem;
 }
 
 .container {

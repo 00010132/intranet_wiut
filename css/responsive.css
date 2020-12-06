@@ -29,26 +29,31 @@
 
 @media screen and (max-width: 874px) {
     .navbar.responsive {
-        display: block;
+        position: relative;
+        flex-direction: column;
     }
     .navbar.responsive .nav-button {
-         display: block;
-         float: right;
-     }
-    .navbar.responsive .brand-logo {
         position: absolute;
         top: 0;
         right: 0;
-
+     }
+    .navbar.responsive .brand-logo {
+        display: block;
     }
 
     .navbar.responsive ul.nav {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
     }
     .navbar.responsive ul.nav li {
         display: block;
         width: 100%;
+        text-align: center;
+    }
+    .navbar.responsive a.user {
+        display: block;
+        margin-top: 2rem;
     }
 
 }
