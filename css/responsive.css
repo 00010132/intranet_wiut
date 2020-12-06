@@ -17,6 +17,22 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    section.blocks  .block {
+        flex: 0 46.5%;
+    }
+}
+@media screen and (max-width: 992px) {
+    section.blocks .block {
+        flex: 0 45%;
+    }
+}
+@media screen and (max-width: 768px) {
+    section.blocks .block {
+        flex: 0 99%;
+    }
+}
+
 /* Making navigation bar responsive */
 @media screen and (max-width: 992px) {
     .navbar :not(:first-child) {
