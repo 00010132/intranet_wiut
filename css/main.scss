@@ -170,6 +170,27 @@ p.message {
   display: none;
 }
 
+button[type=submit] {
+  background-color: white;
+  border: 2px solid $primary-color2;
+  color: $primary-color2;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  &:hover {
+    background-color: $primary-color2;
+    color: white;
+  }
+}
+
 input[type=text], input[type=text]:visited {
   width: 100%;
   padding: 12px 20px;
