@@ -15,6 +15,11 @@ body {
   color: #4b4b4b;
 }
 
+marquee {
+  color: #736ce9;
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
   color: #4b4b4b;
@@ -104,11 +109,60 @@ section.header .header-text p {
   margin-top: 1rem;
   color: #afafaf;
   letter-spacing: .4px;
+  line-height: 30px;
+  font-weight: 500;
 }
 section.header .header-image {
   width: 100%;
   max-width: 376px;
   height: auto;
+}
+
+.block {
+  background-color: #eaeaea;
+  border-radius: 7px;
+  border: 1px solid #afafaf;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+section.blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+section.blocks .block {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 47%;
+          flex: 0 47%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.blocks .block .block-icon {
+  background-color: #fff;
+  padding: 1rem;
+  color: #736CE9;
+  border-radius: 100px;
+  margin-right: 2rem;
+}
+section.blocks .block .block-text .title {
+  margin-bottom: 1rem;
+}
+section.blocks .block .block-text .title a {
+  font-weight: 400;
+  color: #736CE9;
+}
+section.blocks .block .block-text .title a:hover {
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */
