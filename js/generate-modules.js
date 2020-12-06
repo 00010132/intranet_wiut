@@ -25,10 +25,39 @@ var data = [
         credits: "20",
         deadline: "December, 20"
     },
-
+    {
+        code: "4BUIS011C",
+        title: "Web Technology",
+        status: "Core",
+        duration: "1, 2",
+        credits: "20",
+        deadline: "December, 7"
+    },
+    {
+        code: "4BUIS012C",
+        title: "Computer Science Fundamentals",
+        status: "Core",
+        duration: "2",
+        credits: "20",
+        deadline: "April, 14"
+    },
+    {
+        code: "4BUIS013C",
+        title: "Mathematics for computing",
+        status: "Optional",
+        duration: "2",
+        credits: "20",
+        deadline: "May, 11"
+    },
+   {
+        code: "4BUIS013C",
+        title: "Graphic design",
+        status: "Optional",
+        duration: "2",
+        credits: "20",
+        deadline: "May, 15"
+    },
 ];
-
-console.log(data);
 
 for (let i = 0; i < data.length; i++) {
     let row = data[i];

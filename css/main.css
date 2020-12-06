@@ -282,6 +282,9 @@ input[type=text]:focus, textarea:focus, select:focus {
 section.modules .block {
   background-color: #736CE9;
 }
+section.modules .block:hover {
+  background-color: #5e56e6;
+}
 section.modules .block h3.title {
   text-transform: uppercase;
 }

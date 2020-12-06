@@ -263,6 +263,9 @@ section.modules {
 
   .block {
     background-color: $primary-color2;
+    &:hover {
+      background-color: darken($primary-color2, 5);
+    }
     h3.title {
       text-transform: uppercase;
     }
