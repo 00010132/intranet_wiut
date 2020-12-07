@@ -8,7 +8,7 @@ function navResponsify() {
     }
 }
 
-
+/* Opens Report in a separate chrome tab */
 function downloadReport() {
     let url = "Example_sub_page.pdf";
     window.open(url, "_blank");

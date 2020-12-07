@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome Page</title>
-    <!--    -->
+    <!--  Responsive sizes  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Fonts-->
+    <!--  Fonts  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <!--  Icons   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <!--Stylesheets-->
+    <!--  Stylesheets  -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!--  Favicon  -->
     <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
 </head>
 <body>
+<!-- Navigation Bar -->
 <nav class="navbar" id="navBar">
+    <!--  Logo on Navigation Bar  -->
     <a href="/" class="brand-logo">
         <img src="images/logo.png" alt="logo">
     </a>
+    <!--  Links  -->
     <ul class="nav">
         <li class="nav-item">
             <a href="index.html" class="nav-link active">Home</a>
@@ -39,15 +44,18 @@
             <a href="feedback.html" class="nav-link">Feedback</a>
         </li>
     </ul>
+    <!--  ID Number of the Student (By Clicking it, user can download the Report)  -->
     <a href="javascript:void(0);" onclick="downloadReport()" class="user" title="Click to download the Report">
-        00011763
+        00010132
     </a>
+    <!--  "Hamburger" button for the Navigation Bar in small sizes  -->
     <a href="javascript:void(0);" onclick="navResponsify()" class="nav-button">
         <i class="fas fa-bars"></i>
     </a>
 </nav>
-
+<!-- Container Makes the Markup Responsive in Different Screen Sizes -->
 <div class="container">
+    <!--  First Section with Welcome Content  -->
     <section class="header">
         <div class="header-text">
             <h1>Welcome to
@@ -58,6 +66,7 @@
         </div>
         <img src="images/header-image.png" class="header-image" alt="image">
     </section>
+    <!--  Blocks with links to Pages  -->
     <section class="blocks">
         <!--  Group    -->
         <div class="block">
@@ -109,9 +118,9 @@
         </div>
     </section>
 </div>
-
-<marquee bg-color="#736ce9" behavior="scroll" direction="left">This website was created to fulfill Web Technology module's requirements and does not represent any actual company or service</marquee>
-
+<!-- Moving text (as it was mentioned in CW description) message for information -->
+<marquee bg-color="#736ce9" behavior="scroll" direction="left">This website was created to fulfill Web Technology module's requirements and does not represent any actual company or service.</marquee>
+<!-- Main JavaScript file -->
 <script src="js/main.js"></script>
 </body>
 </html>

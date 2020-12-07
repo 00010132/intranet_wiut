@@ -1,6 +1,5 @@
 $primary-font: 'Montserrat', sans-serif;
 
-/** Colors */
 $primary-color: #203781;
 $primary-color2: #736CE9;
 $primary-color3: #8fdaef;
@@ -14,35 +13,43 @@ $secondary-color5: #eaeaea;
 
 $success: #5cb85c;
 $danger: #d9534f;
-
+ // Removing default margin and padding of each element
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+// root font-size
 html {
   font-size: 16px;
 }
 
+// Default typography settings
 body {
   font-family: $primary-font;
   color: $secondary-color2;
 }
+
+// Animating text settings
 marquee {
   color: $primary-color3-1;
   font-weight: 600;
 }
+
+// Default link settings
 a {
   text-decoration: none;
   color: $secondary-color2;
   font-weight: 500;
+  // Active and mouse over state
   &:hover, &.active {
     font-weight: 600;
     color: $primary-color2;
   }
 }
 
+/*Navigation Bar Settings*/
 .navbar {
   padding: .5rem ;
   display: flex;
@@ -69,13 +76,14 @@ a {
     padding: .5rem;
   }
 }
-
+/* Container Settings */
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+/* Default Settings */
 section {
   margin: 5rem 0;
 }
@@ -96,6 +104,7 @@ h5 {
   font-size: 1rem;
 }
 
+/* Welcome section Settings */
 section.header {
   display: flex;
   justify-content: space-between;
@@ -123,6 +132,7 @@ section.header {
   }
 }
 
+/* Default Panel Box */
 .block {
   background-color: $secondary-color5;
   border-radius: 7px;
@@ -150,6 +160,7 @@ section.header {
   display: block;
 }
 
+/* Link Blocks */
 section.blocks {
   display: flex;
   flex-wrap: wrap;
@@ -179,7 +190,7 @@ section.blocks {
     }
   }
 }
-
+/* Feedback */
 section.feedback {
   margin-top: 2rem;
   form {
@@ -198,6 +209,7 @@ p.message {
   display: none;
 }
 
+/* Form Settings */
 button[type=submit] {
   background-color: white;
   border: 2px solid $primary-color2;
@@ -267,7 +279,9 @@ select {
 input[type=text]:focus, textarea:focus, select:focus {
   border: 2px solid $primary-color2;
 }
+/* Form Settings End */
 
+/* Modules */
 section.modules {
   h2.caption {
     text-align: center;
