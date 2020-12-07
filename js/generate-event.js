@@ -15,14 +15,10 @@ var events = document.querySelector("section.events");
 let colorsBody = [
     "#ab7cf2", // purple
     "#f59ea7", // pink
-    "#88c0ee", // lightblue
-    "#3e7bfd", // blue
 ];
 let colorsIn = [
     "#874bf2", // purple
     "#f14b75", // pink
-    "#4b51f1", // lightblue
-    "#043ffb", // blue
 ];
 
 let data = [
@@ -76,8 +72,8 @@ for (let i = 0; i < data.length; i++) {
 
     let which = i;
 
-    if ( i+1 >= 4 )
-        which = (i+1) % 4;
+    if ( i+1 >= 2 )
+        which = (i) % 2;
 
     let dateColor = colorsIn[which];
     let textColor = colorsBody[which];
