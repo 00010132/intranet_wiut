@@ -28,6 +28,17 @@
     }
 }
 
+@media screen and (max-width: 664px) {
+    section.events .event {
+        flex-direction: column;
+    }
+    section.events .event .date {
+        margin-bottom: 2rem;
+    }
+    section.events .event .text p {
+        text-align: center;
+    }
+}
 /* Making navigation bar responsive */
 @media screen and (max-width: 992px) {
     .navbar :not(:first-child) {
