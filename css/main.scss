@@ -285,6 +285,17 @@ section.modules {
 }
 
 section.group {
+  margin-top: 2rem;
+  .details {
+    margin-bottom: 2rem;
+  }
+  h3 {
+    margin-bottom: 1rem;
+    color: $secondary-color1;
+    span {
+      font-weight: 400;
+    }
+  }
   table {
     border-collapse: collapse;
     width: 100%;
