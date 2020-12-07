@@ -279,6 +279,9 @@ input[type=text]:focus, textarea:focus, select:focus {
   border: 2px solid #736CE9;
 }
 
+section.modules h2.caption {
+  text-align: center;
+}
 section.modules .block {
   background-color: #736CE9;
 }
@@ -297,6 +300,21 @@ section.modules .block h3 {
 }
 section.modules .block h3 span {
   font-weight: 400;
+}
+
+section.group table {
+  border-collapse: collapse;
+  width: 100%;
+}
+section.group th, section.group td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #eaeaea;
+  height: 3.5rem;
+}
+section.group th, section.group tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
