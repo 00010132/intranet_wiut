@@ -343,7 +343,7 @@ section.group th, section.group tr:hover {
   cursor: pointer;
 }
 
-/* even */
+/* event colors */
 section.events .event {
   display: -webkit-box;
   display: -ms-flexbox;
