@@ -359,7 +359,29 @@ section.events {
   }
 }
 
+section.timetable {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
 
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid $secondary-color5;
+    height: 3.5rem;
+    text-wrap: normal;
+  }
+
+
+  th, td:hover {
+    background-color:#f5f5f5;
+    cursor: pointer;
+  }
+  td.class {
+    background-color: lighten($event-purple-in, 15);
+  }
+}
 
 section.events .block h3 {
   text-align: center !important;
