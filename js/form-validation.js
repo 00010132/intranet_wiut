@@ -26,14 +26,13 @@ form.addEventListener('submit', function (event) {  // validate before submittin
     if ( error === false) { // error
         statusBox.className += " danger";
         statusBoxText.textContent = "Oops! You have some errors!";
-        event.preventDefault();
     } else { // success
         statusBox.className += " success";
         statusBoxText.textContent = "Your feedback was successfully sent. Thank you!";
-        window.scrollTo(0,0);
         alert("Your feedback was successfully sent. Thank you!");
         window.open("index.html");
     }
+    event.preventDefault(); // preventing, nowhere to submit
 });
 
 function validateField(field) {
