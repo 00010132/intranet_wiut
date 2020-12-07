@@ -320,11 +320,11 @@ section.group {
 section.group .details {
   margin-bottom: 2rem;
 }
-section.group h3 {
+section.group h4 {
   margin-bottom: 1rem;
   color: #2e2e2e;
 }
-section.group h3 span {
+section.group h4 span {
   font-weight: 400;
 }
 section.group table {
