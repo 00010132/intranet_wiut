@@ -305,6 +305,8 @@ section.modules h2.caption {
 }
 section.modules .block {
   background-color: #736CE9;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 section.modules .block:hover {
   background-color: #5e56e6;
