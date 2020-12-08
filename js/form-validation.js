@@ -35,7 +35,7 @@ form.addEventListener('submit', function (event) {  // validate before submittin
     event.preventDefault(); // preventing, nowhere to submit
 });
 
-function validateField(field) {
+function validateField(field) { // validate the current field
     let value = field.value;
     let errorTag = document.querySelector("#" + field.id + "+ p.message");
     let fieldName = document.querySelector("label[for=" + field.id + "]");
