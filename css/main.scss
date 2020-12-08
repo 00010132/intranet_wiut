@@ -395,6 +395,10 @@ section.timetable {
   }
   td.class {
     background-color: lighten($event-purple-in, 15);
+    transition: all 0.5s;
+    &:hover {
+      background-color: lighten($event-purple-in, 5);
+    }
   }
 }
 

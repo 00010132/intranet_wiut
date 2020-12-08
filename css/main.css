@@ -393,6 +393,11 @@ section.timetable th, section.timetable td:hover {
 }
 section.timetable td.class {
   background-color: #b792f7;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+section.timetable td.class:hover {
+  background-color: #9763f4;
 }
 
 section.events .block h3 {
