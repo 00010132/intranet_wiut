@@ -10,6 +10,6 @@ function navResponsify() {
 
 /* Opens Report in a separate chrome tab */
 function downloadReport() {
-    let url = "Example_sub_page.pdf";
+    let url = "00010132 - Report.pdf";
     window.open(url, "_blank");
 }
